@@ -25,12 +25,12 @@ public class ExecucaoApp {
 		
 	Carro calculo = new Carro(cor, modelo, capacidadeDoTanque);
 	
-	System.out.println("A cor do carro é: " + calculo.getCor());
-	System.out.println("O modelo do carro é: " + calculo.getModelo());
-	System.out.println("A capacidade do tanque é:  " + calculo.getCapacidadeDoTanque());
+	System.out.println("A cor do carro Ã©: " + calculo.getCor());
+	System.out.println("O modelo do carro Ã©: " + calculo.getModelo());
+	System.out.println("A capacidade do tanque Ã©:  " + calculo.getCapacidadeDoTanque());
 	System.out.println("Valor para encher o tanque: R$ =  " + calculo.valorTanque(valorGasolina));
 		
-	scan.close();
+	
 	
 	
 	
